@@ -16,7 +16,7 @@ class ViewController: UIViewController {
 }
 
 final class LightOutsid{
-    var intensity: Double = 1.0
+    var intensity: Double = 5.2
     
     func switchOn(){
         print("Light switched on")
@@ -29,7 +29,7 @@ final class LightOutsid{
 }
 
 final class HeatingCooling{
-    var temperature: Double = 21.5
+    var temperature: Double = 30.5
     var mode: String {
         return temperature >= 25 ? "heating" : "cooling"
     }
